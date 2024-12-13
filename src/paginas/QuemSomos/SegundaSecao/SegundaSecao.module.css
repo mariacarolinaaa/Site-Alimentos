@@ -1,0 +1,129 @@
+.container {
+  margin: 10px;
+  padding-right: 60px;
+  margin-top: 30px;
+  background-color: #f8fafc;
+}
+.imagemSalada {
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  width: 40vw;
+  float: left;
+  border-radius: 5%;
+  margin-top: 2rem;
+}
+
+.paragrafo {
+  padding: 8px;
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 5rem;
+  width: -50%;
+  text-align: right;
+}
+
+.subtitulo {
+  color: #00712d;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  width: 90%;
+  text-align: right;
+}
+
+@media (max-width: 1100px) {
+  .imagemSalada {
+    float: none;
+    display: block;
+    margin: 0 auto 2rem;
+    width: 70vw;
+  }
+
+  .paragrafo {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 744px) {
+  .imagemSalada {
+    width: 100%;
+  }
+
+  .subtitulo {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .paragrafo {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  .container {
+    margin: 30px;
+    padding-right: 60px;
+    margin-top: 30px;
+  }
+  .imagemSalada {
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+    width: 40vw;
+    float: right;
+    border-radius: 5%;
+    margin-top: 2rem;
+  }
+
+  .paragrafo {
+    padding: 8px;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    width: 50%;
+  }
+
+  .subtitulo {
+    color: #00712d;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    width: 55%;
+  }
+
+  @media (max-width: 1100px) {
+    .imagemSalada {
+      float: none;
+      display: block;
+      margin: 0 auto 2rem;
+      width: 70vw;
+    }
+
+    .paragrafo {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 744px) {
+    .imagemPlanta {
+      width: 100%;
+    }
+
+    .subtitulo {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+      font-size: 1rem;
+      line-height: 1.75rem;
+    }
+  }
+}

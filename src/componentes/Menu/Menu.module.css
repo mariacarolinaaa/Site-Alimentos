@@ -1,0 +1,39 @@
+.navegacao {
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
+  column-gap: 2rem;
+}
+.botao {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  background-color: red;
+  color: var(--branco);
+  border: 3px solid;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+@media (max-width: 744px) {
+  .navegacao {
+    height: 72px;
+  }
+}

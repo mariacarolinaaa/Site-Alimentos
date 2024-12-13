@@ -1,0 +1,17 @@
+.rodape {
+  background-color: #00712d;
+  color: var(--branco);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 20px;
+}
+
+.logoNutriz {
+  width: 180px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+}

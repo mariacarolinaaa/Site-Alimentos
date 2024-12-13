@@ -1,0 +1,10 @@
+.link {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: var(--cor-fonte-principal);
+  display: flex;
+}
+
+.linkDestacado {
+  text-decoration: underline;
+}
