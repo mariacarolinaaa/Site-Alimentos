@@ -4,7 +4,10 @@ import Inicio from "./paginas/inicio";
 import QuemSomos from "./paginas/QuemSomos";
 import Certificacoes from "./paginas/Certificacoes/BannerCertificacoes";
 import Contato from "./paginas/Contato";
+import Carrinho from "./paginas/Carrinho";
 import PaginaNaoEncontrada from "paginas/PaginaNaoEncontrada";
+import Produtos from "./paginas/Produtos";
+import Receitas from "paginas/Receitas";
 
 function AppRoutes() {
   return (
@@ -14,7 +17,10 @@ function AppRoutes() {
         <Route path="/" element={<Inicio />} />
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/certificacoes" element={<Certificacoes />} />
+        <Route path="/produtos" element={<Produtos />} />
+        <Route path="/receitas" element={<Receitas />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/carrinho" element={<Carrinho />} />
         <Route path="*" element={<PaginaNaoEncontrada />} />
       </Routes>
     </BrowserRouter>

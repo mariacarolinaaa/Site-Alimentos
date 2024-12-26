@@ -1,0 +1,67 @@
+.TituloPrincipal {
+  padding: 20px;
+  font-size: 1.7rem;
+}
+.container {
+  width: 600px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  bottom: -80px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 0px 0px 10px 10px;
+
+  gap: 20px;
+}
+.cabecalho {
+  background-color: #257a47;
+  border-radius: 10px 10px 0px 0px;
+  line-height: 30px;
+}
+
+.Imagem {
+  align-items: center;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -30px;
+  left: 200px;
+}
+
+.Paragrafo {
+  font-size: 20px;
+  line-height: 22px;
+  color: #212121;
+  padding: 10 16px;
+  margin: 10px;
+}
+.containerDois {
+  width: 550px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 60px;
+  bottom: -90px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 0px 0px 10px 10px;
+}
+.containerTres {
+  width: 550px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 60px;
+  bottom: -80px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 0px 0px 10px 10px;
+}
+.DivGrande {
+  display: flex;
+  gap: 50px;
+  top: 30px;
+  margin-bottom: 50px;
+}

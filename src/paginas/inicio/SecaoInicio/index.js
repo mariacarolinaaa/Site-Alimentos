@@ -6,7 +6,7 @@ export default function SecaoInicio() {
   const navigate = useNavigate();
 
   const handleContatoClick = () => {
-    navigate("/quemsomos"); // Navega para a rota "/contato"
+    navigate("/quemsomos");
   };
 
   return (

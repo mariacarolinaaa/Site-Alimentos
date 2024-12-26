@@ -1,0 +1,35 @@
+.BannerFundo {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  position: absolute;
+  position: relative;
+}
+
+.TituloPrincipal {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 350px;
+  left: 550px;
+  color: white;
+}
+
+.SegundoTitulo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  left: 200px;
+  top: 450px;
+  padding: 20px;
+  color: white;
+}
+
+.TerceiroTitulo {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 2rem;
+  color: #006327;
+}

@@ -16,7 +16,7 @@
 .paragrafo {
   padding: 8px;
   text-align: justify;
-  font-size: 1.5rem;
+  font-size: 25px;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
   margin-left: 2rem;
@@ -80,7 +80,7 @@
   .paragrafo {
     padding: 8px;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 2.25rem;
     margin-bottom: 1.5rem;
     margin-left: 2rem;
@@ -93,7 +93,7 @@
     text-align: center;
     margin-top: 30px;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 55%;
   }
 

@@ -1,0 +1,146 @@
+.Tituloprincipal {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.Lista {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Lista li {
+  background-color: #fafafa;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.Lista li span {
+  font-weight: bold;
+  color: #00712d;
+}
+
+.segundoTitulo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.botaoLimparCarrinho {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botaoLimparCarrinho:hover {
+  background-color: #e05b50;
+  transform: scale(1.05);
+}
+
+.Tituloprincipal {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.Lista {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Lista li {
+  background-color: #fafafa;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.Lista li span {
+  font-weight: bold;
+  color: #00712d;
+}
+
+.segundoTitulo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.botaoLimparCarrinho {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botaoLimparCarrinho:hover {
+  background-color: #e05b50;
+  transform: scale(1.05);
+}
+
+.CarrinhoVazio {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #888;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+}

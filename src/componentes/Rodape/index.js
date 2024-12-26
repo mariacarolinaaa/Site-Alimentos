@@ -4,7 +4,7 @@ export default function Rodape() {
   return (
     <footer className={styles.rodape}>
       <img
-        src="/logo.nutriz.png"
+        src="./LogoNutriz.png"
         alt="Imagem brocolis"
         className={styles.logoNutriz}
       />

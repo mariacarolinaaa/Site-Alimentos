@@ -1,0 +1,79 @@
+.TituloPrincipal {
+  text-align: center;
+  margin: 60px;
+  color: #00712d;
+  font-size: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ImagemProdutos {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.ImagemProdutosDois {
+  height: 400px;
+
+  object-fit: cover;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.ImagemProdutosTres {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+figcaption span {
+  font-weight: bold;
+  color: #333;
+}
+.adicionarButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+.adicionarButton:hover {
+  background-color: rgb(241, 50, 50);
+}
+.BotaoCarrinho {
+  background-color: #00712d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 8px;
+  border-radius: 5px;
+}

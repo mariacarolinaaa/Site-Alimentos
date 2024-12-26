@@ -1,0 +1,50 @@
+.BannerContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.BannerFundo {
+  width: 100%;
+  height: 600px;
+}
+
+.TextosSobreBanner {
+  position: absolute;
+  top: 40%; /* Para centralizar verticalmente */
+  left: 50%; /* Para centralizar horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste perfeito para centralizar */
+  text-align: center;
+  color: white; /* Cor do texto */
+}
+
+.TituloPrincipal {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.SegundoTitulo {
+  font-size: 2rem;
+  margin: 10px 0 0 0;
+}
+
+.MenuProdutos {
+  position: absolute;
+  top: 90%; /* Para centralizar verticalmente */
+  left: 50%; /* Para centralizar horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste perfeito para centralizar */
+  text-align: center;
+  color: white; /* Cor do texto */
+  display: flex; /* Para dispor os itens em linha */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  gap: 80px; /* Adiciona espaçamento entre os itens */
+  margin-top: 20px;
+  font-size: 2rem;
+  text-decoration: underline;
+  transition: transform 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.05); /* Aumenta a imagem em 10% */
+}

@@ -4,7 +4,7 @@ export default function BannerQuemSomos() {
   return (
     <div className={styles.BannerQuemSomos}>
       <div className={styles.imagens}>
-        <img className={styles.bannerFundo} src="/Banner.quemSomos.jpg" />
+        <img className={styles.bannerFundo} src="/banner.quemSomos.png" />
       </div>
       <div className={styles.apresentacao}>
         <h2 className={styles.titulo}>

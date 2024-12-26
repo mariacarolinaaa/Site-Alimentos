@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Alinha verticalmente os itens no centro */
+  gap: 400px; /* Espaçamento entre o <p> e o <h2> */
+  margin: 200px;
+  cursor: pointer;
+}
+
+.Secao {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ParagrafoQuintaSecao {
+  font-weight: 600;
+  font-size: 40px;
+  color: #00712d;
+}
+
+.TituloQuintaSecao {
+  margin: 0;
+}
+
+.Secao:hover {
+  transform: scale(1.1);
+}

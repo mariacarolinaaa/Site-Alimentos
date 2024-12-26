@@ -1,0 +1,41 @@
+/* Centraliza todo o conteúdo dentro da div.container */
+.container {
+  display: flex;
+  flex-direction: column; /* Garante que o conteúdo será empilhado verticalmente */
+  justify-content: center; /* Alinha o conteúdo verticalmente no centro */
+  align-items: center; /* Alinha o conteúdo horizontalmente no centro */
+  height: 60vh; /* Garante que o conteúdo ocupe 60% da altura da tela */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para o título principal */
+.TituloPrincipal {
+  font-size: 4rem;
+  color: red;
+  margin-bottom: 20px;
+  opacity: 0; /* Inicialmente invisível */
+  transform: translateY(30px); /* Inicialmente deslocado para baixo */
+  transition: opacity 1s ease, transform 1s ease; /* Definindo a transição */
+}
+
+/* Classe adicionada quando o elemento entra na viewport */
+.textoVisivel {
+  opacity: 1; /* Torna o texto visível */
+  transform: translateY(0); /* Movimento para a posição original */
+}
+
+/* Estilo para o botão */
+.botao {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #df231d;
+}

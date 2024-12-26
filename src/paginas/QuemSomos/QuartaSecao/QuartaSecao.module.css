@@ -1,0 +1,45 @@
+.BannerContainer {
+  position: relative;
+}
+
+.BannerFundo {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  position: relative;
+}
+
+.Overlay {
+  position: absolute; /* A sobreposição vai cobrir a imagem */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(14, 88, 43, 0.5); /* Preto com 50% de opacidade */
+  z-index: 1; /* Garante que a sobreposição fique acima da imagem */
+}
+
+.TituloPrincipal {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Título visível sobre a sobreposição */
+  z-index: 2;
+  padding: 0 20px;
+}
+.Paragrafo {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Título visível sobre a sobreposição */
+  z-index: 2;
+  padding: 0 20px;
+}

@@ -1,8 +1,15 @@
 .link {
-  font-size: 1.5rem;
+  font-size: 25px;
   line-height: 1.5rem;
-  color: var(--cor-fonte-principal);
   display: flex;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.carrinho {
+  width: 20px; /* Tamanho da imagem do carrinho */
+  height: auto;
+  cursor: pointer;
+  margin-left: 20px;
 }
 
 .linkDestacado {
